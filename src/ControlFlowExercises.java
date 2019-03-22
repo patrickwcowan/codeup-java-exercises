@@ -71,31 +71,31 @@ public class ControlFlowExercises {
 
 
 
-//do {
-//
-//    System.out.println("What would you like to go up to? ");
-//    int userInput = scanner.nextInt();
-//    System.out.println("number | squared | cubed\n" +
-//            "------ | ------- | -----");
-//
-//    for (int number = 1; number <= userInput; number++) {
-//        int squared = number * number;
-//        int cubed = squared * number;
-//        System.out.format("%-6d | %-6d  | %-6d\n", number, squared, cubed);
-//    }
-//
-//    System.out.println("Would you like to continue? (yes or no) ");
-//    String userContinue = scanner.next();
-//
-//    if (userContinue.equals("yes")) {
-//        continue;
-//    } if (userContinue.equals("no")) {
-//        break;
-//    } else {
-//        break;
-//    }
-//
-//} while (true);
+do {
+
+    System.out.println("What would you like to go up to? ");
+    int userInput = scanner.nextInt();
+    System.out.println("number | squared | cubed\n" +
+            "------ | ------- | -----");
+
+    for (int number = 1; number <= userInput; number++) {
+        int squared = number * number;
+        int cubed = squared * number;
+        System.out.format("%-6d | %-6d  | %-6d\n", number, squared, cubed);
+    }
+
+    System.out.println("Would you like to continue? (yes or no) ");
+    String userContinue = scanner.next();
+
+    if (userContinue.equals("yes")) {
+        continue;
+    } if (userContinue.equals("no")) {
+        break;
+    } else {
+        break;
+    }
+
+} while (true);
 
 
 //       String num1 = "yes";
@@ -112,29 +112,29 @@ public class ControlFlowExercises {
 //        4. Convert given number grades into letter grades.
 
 
-        String userContinue;
-        do {
-
-        System.out.print("Give me you numerical Grade: ");
-        int userGrade = scanner.nextInt();
-
-         if (userGrade >= 88 && userGrade <= 100) {
-             System.out.println("Your grade is a A");
-         } else if (userGrade >= 80 && userGrade <= 87) {
-             System.out.println("Your grade is a B");
-         } else if (userGrade >= 67 && userGrade <= 79) {
-             System.out.println("Your grade is a C");
-         } else if (userGrade >= 60 && userGrade <= 66) {
-             System.out.println("Your grade is a D");
-         } else if (userGrade >= 0 && userGrade <= 59) {
-             System.out.println("Your grade is a F");
-         }
-
-            System.out.println();
-         System.out.println("Would you like to continue? (yes or no) ");
-         userContinue = scanner.next();
-
-        } while (userContinue.equals("yes"));
+//        String userContinue;
+//        do {
+//
+//        System.out.print("Give me you numerical Grade: ");
+//        int userGrade = scanner.nextInt();
+//
+//         if (userGrade >= 88 && userGrade <= 100) {
+//             System.out.println("Your grade is a A");
+//         } else if (userGrade >= 80 && userGrade <= 87) {
+//             System.out.println("Your grade is a B");
+//         } else if (userGrade >= 67 && userGrade <= 79) {
+//             System.out.println("Your grade is a C");
+//         } else if (userGrade >= 60 && userGrade <= 66) {
+//             System.out.println("Your grade is a D");
+//         } else if (userGrade >= 0 && userGrade <= 59) {
+//             System.out.println("Your grade is a F");
+//         }
+//
+//            System.out.println();
+//         System.out.println("Would you like to continue? (yes or no) ");
+//         userContinue = scanner.next();
+//
+//        } while (userContinue.equals("yes"));
 
 
         //FIZZ BUZZ PUSHUPS

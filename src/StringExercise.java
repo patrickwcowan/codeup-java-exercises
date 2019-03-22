@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringExercises {
+public class StringExercise {
     public static void main(String[] args) {
 //        String message = "Hello";
 //        System.out.println(message);
@@ -100,11 +100,47 @@ public class StringExercises {
 
 //        System.out.println(myName);
 
-        String newString = "We don't need no education\nWe don't need no thought control";
-        System.out.println(newString);
+        // 1. String Basics
+
+//        String message = "We don't need no education\nWe don't need no thought control";
+//        System.out.println(message);
+//
+//        System.out.println();
+//        message = "Check \"this\" out!, \"s inside of \"s!";
+//        System.out.println(message);
+//
+//        System.out.println();
+//        message = "In windows, the main drive is usually C:\\";
+//        System.out.println(message);
+//
+//        System.out.println();
+//        message = "I can do backslashes \\, double backslashes \\\\, \nand the amazing triple backslash \\\\\\!";
+//        System.out.println(message);
+
+//        String newString = "Do you lik me?";
+//        System.out.println(newString);
+//
+//        System.out.println(newString.contains("a"));
+
+//
+//        System.out.print("");
+//        String userInput = scanner.nextLine();
+//
+//        if (userInput.contains("?")) {
+//            System.out.println("Sure");
+//        } else if (userInput.contains("!")) {
+//            System.out.println("Whoa, chill out!");
+//        } else if ((userInput.trim()).contains(" ")) {
+//            System.out.println("Fine, Be that way!");
+//        } else {
+//            System.out.println("Whatever");
+//        }
 
 
 
+//        Java Strings Bonus:
+//        1) Read in a string and write out the reverse string: Java String -> gnirtS avaJ
+//        2) Tell whether a given string is a palindrome
 
 
 
