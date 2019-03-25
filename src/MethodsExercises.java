@@ -1,5 +1,7 @@
 public class MethodsExercises {
     public static void main(String[] args) {
+
+
 //        System.out.println(addition(5,4));
 //
 //        System.out.println(subtraction(5,4));
@@ -8,9 +10,18 @@ public class MethodsExercises {
 
 //        System.out.println(division(10,1));
 
-        String lolo = "Hi" + 3;
+//        count(5);
 
-        System.out.println(lolo);
+//        System.out.println(multiplication(11,10));
+
+//        getInteger(1,10);
+
+//        System.out.println(factorial());
+
+//        System.out.println(diceRoll());
+
+//         diceRoll();
+
 
 
     }
@@ -22,13 +33,13 @@ public class MethodsExercises {
 //    public static int subtraction (int num1,int num2) {
 //        return num1-num2;
 //    }
-
+//
 //    public static int multiplication(int num1, int num2) {
 //        return num1 * num2;
 //    }
-
-    //Multiplication without the *
-
+//
+//    //Multiplication without the *
+//
 //    public static int multiplication(int num1, int num2) {
 //        int output = 0;
 //        for (int i = 1; i <= num2; i++) {
@@ -37,11 +48,93 @@ public class MethodsExercises {
 //        return output;
 //    }
 //
-//
-//
 //    public static int division(int num1, int num2) {
 //        return num1/num2;
 //    }
+
+//    public static int multiplication(int num1, int num2) {
+//        if (num2 <= 0) {
+//            return num2;
+//        } else {
+//            return num1 + multiplication(num1,num2-1);
+//        }
+//    }
+
+//    public static int getInteger(int min, int max) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number between 1 and 10: ");
+//        int userInput = scanner.nextInt();
+//        if (userInput >= min && userInput <= max) {
+//            System.out.println("Your number is within range!");
+//            return userInput;
+//        } else {
+//            System.out.println("Please choose another number");
+//            return getInteger(min,max);
+//        }
+//    }
+
+//    public static long factorial() {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number between 1 and 10: ");
+//        int userInput = scanner.nextInt();
+//        if (userInput<=10 && userInput>=1) {
+//            int num1 = 1;
+//            for (int i = 1; i <= userInput; i++) {
+//                num1 *= i;
+//            }
+//            return num1;
+//        } else {
+//            return factorial();
+//        }
+//    }
+
+//    public static long factorial() {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number between 1 and 10: ");
+//        int userInput = scanner.nextInt();
+//
+//        if (userInput<=10 && userInput>=1) {
+//            return userInput * (factorial()-1);
+//        } else {
+//            return factorial();
+//        }
+//    }
+
+    ///Dice Rolling Game
+
+//    public static int diceOne(int input) {
+//        int dice = (int) (Math.random() * input) + 1;
+//        return dice;
+//    }
+//
+//
+//    public static void diceRoll() {
+//
+//            //This is giving the sides of dice:
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.println("How many sided dice would you like?");
+//            int diceSide = scanner.nextInt();
+//
+//        String userResponse;
+//
+//        do {
+//            //prompting the user if they would like roll the dice
+//            System.out.println("Would you like to roll the dice? [y/n]");
+//            userResponse = scanner.next();
+//
+//            //Dice calls and input users input into the callback Method
+//            int dice1 = diceOne(diceSide);
+//            int dice2 = diceOne(diceSide);
+//
+//            if (userResponse.equalsIgnoreCase("y")) {
+//                System.out.format("Dice One: %s; Dice Two: %s\n", dice1, dice2);
+//            } else {
+//                return;
+//            }
+//        } while (userResponse.equalsIgnoreCase("y"));
+//
+//    }
+
 
 
 
