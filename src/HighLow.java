@@ -18,21 +18,17 @@ public class HighLow {
         int userInput;
         String playAgain;
 
-        //Counter
-        int guessCounter = 0;
-
-
-
         do {
             int randomizer = randomNumber();
             System.out.println(randomizer);
 
-
+            //Counter
+            int guessCounter = 0;
 
                 do {
-                    System.out.println("Guess counter is: " + guessCounter);
+                    ;
                     System.out.println();
-                    System.out.println("Enter a number Dawg! ");
+                    System.out.println("Enter a number: ");
                     userInput = scanner.nextInt();
                     if (userInput == randomizer) {
                         System.out.println();
@@ -40,20 +36,21 @@ public class HighLow {
                         System.out.println();
                     } else if (userInput < randomizer) {
                         System.out.println();
-                        System.out.println("Higher DAWG!!!");
+                        System.out.println("Higher!!!");
                         System.out.println();
                         guessCounter += 1;
+                        System.out.println("You've reached " + guessCounter + " guesses. (limit 5)");
                     } else if (userInput > randomizer) {
                         System.out.println();
                         System.out.println("Lower!!!!");
                         System.out.println();
                         guessCounter += 1;
+                        System.out.println("You've reached " + guessCounter + " guesses. (limit 5)");
                     }
 
                     if (guessCounter < 5) {
                         continue;
                     } else {
-                        guessCounter = 0;
                         System.out.println("////////////////////////////////////\n" +
                                            "/You've reached too many guesses.../\n" +
                                            "////////////////////////////////////");
