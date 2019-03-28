@@ -17,7 +17,6 @@ public class Input {
     }
 
     public boolean yesNo() {
-        System.out.println("Enter yes or No:");
         String input = scanner.next();
         if (input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes")) {
             return true;
@@ -36,7 +35,6 @@ public class Input {
     }
 
     public int getInt() {
-        System.out.println("Enter an integer");
         int input = scanner.nextInt();
         return input;
     }
@@ -51,7 +49,6 @@ public class Input {
     }
 
     public double getDouble() {
-        System.out.println("Enter a double");
         double input = scanner.nextDouble();
         return input;
     }

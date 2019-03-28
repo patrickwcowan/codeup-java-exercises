@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 public class HighLow {
     public static void main(String[] args) {
-        highLowGame();
+        System.out.println(randomNumber());
 
     }
 
         public static int randomNumber() {
-        int dice = (int) (Math.random() * 100) + 1;
+        int dice = (int) (Math.random() * 3);
         return dice;
     }
+
 
 
 
