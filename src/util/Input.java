@@ -11,7 +11,6 @@ public class Input {
     }
 
     public String getString() {
-        System.out.println("Please enter a word");
        String input = scanner.next();
       return input;
     }

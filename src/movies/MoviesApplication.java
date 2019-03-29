@@ -36,7 +36,8 @@ public class MoviesApplication {
             for (Movie x : hi) {
                 System.out.printf("%s - - %s\n", x.getName(), x.getCategory());
             }
-        } else if (userSelection == 0) {
+        } else  {
+            return;
 
         }
     }
