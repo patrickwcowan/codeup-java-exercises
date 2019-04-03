@@ -34,8 +34,15 @@ public class Input {
     }
 
     public int getInt() {
-        int input = scanner.nextInt();
-        return input;
+        int i=0;
+            String input = scanner.next();
+            try {
+                i = Integer.valueOf(input);
+            } catch (NumberFormatException ex) {
+                System.out.println("Wrong format");
+                i = getInt();
+            }
+        return i;
     }
 
     public double getDouble(double min, double max) {
@@ -48,8 +55,15 @@ public class Input {
     }
 
     public double getDouble() {
-        double input = scanner.nextDouble();
-        return input;
+        double i = 0;
+            String input = scanner.next();
+            try {
+                i = Double.valueOf(input);
+            } catch (NumberFormatException ex) {
+                System.out.printf("Wrong format: %s");
+                i = getDouble();
+            }
+        return i;
     }
 
 
