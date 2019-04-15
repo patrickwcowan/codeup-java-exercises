@@ -40,24 +40,24 @@ public class ConsoleExercises {
 //        String favQuote = scanner.nextLine();
 //        System.out.format("Your favorite movie quote is: %s", favQuote);
 
-//        System.out.println("Calculate the perimeter and area of a room!");
-//        System.out.println("Enter the Length and Width of the room: ");
-//        double userLength = Double.parseDouble(scanner.next());
-//        double userWidth = Double.parseDouble(scanner.next());
+        System.out.println("Calculate the perimeter and area of a room!");
+        System.out.println("Enter the Length and Width of the room: ");
+        double userLength = Double.parseDouble(scanner.next());
+        double userWidth = Double.parseDouble(scanner.next());
 
-//        int userLength = scanner.nextInt();
-//        int userWidth = scanner.nextInt();
-//
-//        double area = userLength * userWidth;
-//        double perimeter = (2 * userLength) + (2 * userWidth);
-//
-//        System.out.format("The area of your room is: %.2f\n",area );
-//        System.out.format("The perimeter of your room is: %.2f ",perimeter);
-//
-//        System.out.println("What is the height of your room?");
-//        int userHeight = scanner.nextInt();
-//        double volume = userHeight * userLength * userWidth;
-//        System.out.println("The volume of the room is: " + volume);
+        int userLength = scanner.nextInt();
+        int userWidth = scanner.nextInt();
+
+        double area = userLength * userWidth;
+        double perimeter = (2 * userLength) + (2 * userWidth);
+
+        System.out.format("The area of your room is: %.2f\n",area );
+        System.out.format("The perimeter of your room is: %.2f ",perimeter);
+
+        System.out.println("What is the height of your room?");
+        int userHeight = scanner.nextInt();
+        double volume = userHeight * userLength * userWidth;
+        System.out.println("The volume of the room is: " + volume);
 
 
 

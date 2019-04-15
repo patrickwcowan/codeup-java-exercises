@@ -83,7 +83,6 @@ public class FileIOLesson {
 //            Files.write(
 //                    Paths.get(directory, filename),
 //                    Arrays.asList("Adrien"),
-//
 //                    StandardOpenOption.APPEND
 //            );
 
